@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: plum;
+    color: hsl(247, 76%, 37%);
+}
+
+header {
+    background-color: #75fbf0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    color:black;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hwb(0 41% 21%);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: hsl(36, 75%, 46%);
+}
+
+.movie-gallery {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.movie-gallery h2 {
+    font-size: 2rem;
+    color: hsl(248, 67%, 45%);
+    margin-bottom: 20px;
+}
+
+.movie-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-card h3 {
+    margin-top: 15px;
+    color: hsl(353, 63%, 68%);
+    font-size: 1.5rem;
+}
+
+.todo-list {
+    background-color: hsl(105, 78%, 68%);
+    padding: 50px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.todo-list h2 {
+    text-align: center;
+    color: rgb(33, 33, 147);
+    margin-bottom: 20px;
+}
+
+.todo-list input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.todo-list button {
+    padding: 10px;
+    background-color: #8079bf;
+    border: none;
+    color: hsl(0, 77%, 32%);
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo-list button:hover {
+    background-color: #FDCB82;
+}
+
+#task-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#task-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-list li button {
+    background-color: #E74C3C;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#task-list li button:hover {
+    background-color: #C0392B;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
